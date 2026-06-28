@@ -2,6 +2,13 @@
 
 This repository contains CPU benchmarking tools and evaluation scripts for FastVLM, focused on multimodal reasoning, OCR, and text-based visual question answering.
 
+| Benchmark | Tested resolution | Accuracy metric | Value |
+|---|---|---|---|
+| POPE | 512×512 | Accuracy | 80.39% |
+| GQA | 512×512 | Accuracy | 60.12% |
+| TextVQA | 1024×1024 | VQA accuracy | 72.21% |
+| OCRBench v2 | 1024×1024 | OCR accuracy | 45.57% |
+
 ## What this repo includes
 
 - `fastvlm_bench.py` — main benchmark runner for core performance tests
